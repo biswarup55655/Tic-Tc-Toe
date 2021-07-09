@@ -23,7 +23,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!--image of the grid-->
+   
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
@@ -50,7 +50,7 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-            <!--images of the grid boxes-->
+           
             <ImageView
                 android:id="@+id/imageView0"
                 android:layout_width="match_parent"
@@ -149,7 +149,7 @@
 
     </LinearLayout>
 
-    <!--game status text display-->
+
     <TextView
         android:id="@+id/status"
         android:layout_width="wrap_content"
